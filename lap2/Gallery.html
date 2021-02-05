@@ -4,43 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Gallery</title>
+    <title>Gallery 62090500439</title>
+        <style>
+        
+        .container1 {
+             margin-left:   150px;
+             margin-right:  150px;
+             background-color: #E6E6E6;
+        }
+
+        .container {
+             position: relative;
+             width: 100%;
+        }
+        .image {
+          display: block;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100% ;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: #00FFFF;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        </style>
 </head>
-<body>
+<body style="background-color: #FAFAFA;">
+
+<div class="container1">
+
+    <div class="p-3 mb-2 bg-secondary text-white">
     <div class="container">
         <div class ="jambotron">
             <h1>My Gallery</h1>
-            <p>The odinary photo gallerys</p>
+            <p>The terminator</p>
         </div>
     </div>
+    </div>
+
     <div class="row">
+
         <div class="col-xl-3 col-md-6">
-        <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-john-connor-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">John Connor (Terminator Genisys)</div>
+                </div>
+            </div>
         </div>
+
         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-second-t1000-630x420.png?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">T-1000 (Terminator Genisys)</div>
+                </div>
+            </div>
         </div>
+
         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
-         </div> 
-         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
-         </div> 
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-t800-prototype-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">T-800 Prototype (Terminator Salvation)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-marcus-wright-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Marcus Wright (Terminator Salvation)</div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="row">
+        
         <div class="col-xl-3 col-md-6">
-        <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
+            <div class="container">
+                        <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-tx-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">The T-X (Terminator 3: Rise of the Machines)</div>
+                </div>
+            </div>
         </div>
+
         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-third-t800-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">T-800 (Terminator 3: Rise of the Machines)</div>
+                </div>
+            </div>
         </div>
+
         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
-         </div> 
-         <div class="col-xl-3 col-md-6">
-            <img class="img-thumbnail" src="https://i.pinimg.com/originals/23/7a/54/237a54cb6f10f8214a9036685bcb1298.jpg">
-         </div> 
-    </div>
-    
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-pops-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">“Pops” (Terminator Genisys)</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xl-3 col-md-6">
+            <div class="container">
+                            <img class="img-thumbnail" src="https://townsquare.media/site/442/files/2015/07/ranking-terminators-t1000-630x420.jpg?w=630&h=420&q=75"alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">T-1000 (Terminator 2: Judgment Day)</div>
+                </div>
+            </div>
+        </div>
+</div>
+
 </body>
 </html>
