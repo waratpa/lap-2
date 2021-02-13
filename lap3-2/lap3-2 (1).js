@@ -13,9 +13,8 @@ do{
     var o = Math.floor((Math.random() * 9));
 }while(image[o].className !== "free");
 
-
-image[ran].src = 'https://img2.thaipng.com/20180428/xje/kisspng-letter-case-o-alphabet-all-caps-dimensional-characters-26-english-letters-5ae471e0d98030.1299930115249208008909.jpg';
-this.className = "o";  
+image[o].src = 'https://img2.thaipng.com/20180428/xje/kisspng-letter-case-o-alphabet-all-caps-dimensional-characters-26-english-letters-5ae471e0d98030.1299930115249208008909.jpg';
+image[o].className = "o";  
 
 }
 
